@@ -41,14 +41,14 @@ const Home = () => {
       <div className="filters">
         <select onChange={(e) => setFilterType(e.target.value)}>
           <option value="">Filtrar por Tipo</option>
-          <option value="perro">Perro</option>
-          <option value="gato">Gato</option>
+          <option value="Perro">Perro</option>
+          <option value="Gato">Gato</option>
         </select>
         <select onChange={(e) => setFilterAge(e.target.value)}>
           <option value="">Filtrar por Edad</option>
-          <option value="cachorro">Cachorro</option>
-          <option value="adulto">Adulto</option>
-          <option value="senior">Senior</option>
+          <option value="Cachorro">Cachorro</option>
+          <option value="Adulto">Adulto</option>
+          <option value="Senior">Senior</option>
         </select>
       </div>
 
